@@ -19,6 +19,7 @@ const Laurels = () => (
     <div className='app__wrapper-info'>
       <SubHeading  title="Awards & Recognition"/>
       <h1 className='headtext__cormorant'>Our Laurels</h1>
+      
       <div className='app__laurels-awards'>
         {  data.awards.map((award) => <AwardCard  award={award}  key={award.title}/>)}
       </div>
